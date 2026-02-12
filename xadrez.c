@@ -39,6 +39,22 @@ int main() {
         i++;
     } while(i < passosRainha);
 
+    // CAVALO - movimento em L
+    // LOOPS ANINHADOS
+    
+    printf("\n=== Movimento do Cavalo ===\n");
+
+    for(i = 0; i < movimentosCavalo; i++) {   // repete o "L"
+
+        // sobe 2 casas
+        for(j = 0; j < 2; j++) {
+            printf("Cima\n");
+        }
+
+        // anda 1 para direita
+        printf("Direita\n");
+    }
+
 
     return 0;
 }
